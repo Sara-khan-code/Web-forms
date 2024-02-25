@@ -26,7 +26,7 @@ def file():
         mysql.connection.commit()
         cur.close()
         
-        return "Oh Added Successfully" 
+        return "Oh Added Successfully!" 
     return render_template('index.html')
 
 if __name__ == "__main__":
